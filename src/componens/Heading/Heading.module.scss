@@ -1,0 +1,12 @@
+@import './../../styles/vars';
+@import './../../styles/colors';
+
+.heading {
+  margin: ($SPACER * 2) 0;
+  text-align: center;
+
+  &__title {
+    font-size: 50px;
+    color: $color--violet;
+  }
+}

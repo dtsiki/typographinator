@@ -1,0 +1,40 @@
+@import 'reset';
+@import 'fonts';
+@import 'colors';
+@import 'vars';
+
+body {
+  background: $color--white;
+  color: $color--black;
+  font-family: 'Jost';
+  font-size: 14px;
+}
+
+a,
+button {
+  transition: all 0.5s ease-in-out;
+}
+
+.code {
+  opacity: 0.95;
+  background: $color--violet;
+  padding: 0 4px;
+  border-radius: $BORDER_RADIUS;
+  color: $color--white;
+  font-size: 12px;
+}
+
+.hint {
+  display: block;
+  margin: ($SPACER / 2) 0;
+  background: $color--grey;
+  border-radius: $BORDER_RADIUS;
+  padding: $SPACER;
+  font-size: 14px;
+}
+
+.divider {
+  display: block;
+  height: $SPACER;
+  width: 100%;
+}

@@ -1,0 +1,120 @@
+@import './../../styles/vars';
+@import './../../styles/colors';
+
+.form {
+  display: flex;
+  gap: $SPACER * 2;
+
+  &__main {
+    width: 60%;
+  }
+
+  &__settings {
+    width: 40%;
+  }
+
+  &__block {
+    margin-bottom: $SPACER;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__subtitle {
+    display: inline-block;
+    font-size: 25px;
+    margin: 0 0 ($SPACER / 2);
+  }
+
+  &__checkbox {
+    margin-right: $SPACER / 2;
+    cursor: pointer;
+
+    &:focus {
+      box-shadow: 0 0 10px $color--violet;
+      border: 0;
+      outline: 0;
+    }
+
+    &_label {
+      font-size: 16px;
+    }
+  }
+
+  &__textarea {
+    width: 100%;
+    height: 150px;
+    padding: $SPACER / 2;
+    font-size: 14px;
+    box-sizing: border-box;
+    border: 1px solid $color--black;
+    border-radius: $BORDER_RADIUS;
+    transition: all 0.5s ease-in-out;
+
+    &::placeholder {
+      font-family: Jost;
+      font-size: 16px;
+      color: rgba($color--black, 0.4);
+    }
+
+    &:hover {
+      border-color: $color--violet;
+    }
+
+    &:focus {
+      outline: 0;
+      border: 1px solid $color--violet;
+      box-shadow: 0 0 10px $color--violet;
+    }
+
+    &_heading {
+      display: flex;
+      justify-content: flex-end;
+      margin: -$SPACER 0 ($SPACER / 4);
+    }
+
+    &_button {
+      padding: 0;
+      border: 0;
+      color: rgba($color--black, 0.6);
+      background: none;
+      cursor: pointer;
+
+      &:hover {
+        color: $color--violet;
+      }
+
+      &:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+      }
+    }
+  }
+
+  &__submit_button {
+    padding: ($SPACER / 2) $SPACER;
+    background-color: $color--violet;
+    color: $color--white;
+    border: none;
+    border-radius: $BORDER_RADIUS;
+    cursor: pointer;
+    font-size: 18px;
+    margin: $SPACER 0 0;
+
+    &:hover {
+      background-color: rgba($color--violet, 0.8);
+    }
+
+    &:focus {
+      box-shadow: 0 0 10px $color--violet;
+      border: 0;
+      outline: 0;
+    }
+
+    &:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+  }
+}

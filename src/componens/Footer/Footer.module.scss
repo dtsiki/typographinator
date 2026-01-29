@@ -1,0 +1,17 @@
+@import './../../styles/vars';
+@import './../../styles/colors';
+
+.footer {
+  position: fixed;
+  bottom: $SPACER * 2;
+  left: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+
+  &__link {
+    color: $color--violet;
+    text-decoration: none;
+    border-bottom: 2px solid $color--violet;
+  }
+}
