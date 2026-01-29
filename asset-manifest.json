@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/typographinator/static/css/main.0cafb8e8.css",
+    "main.js": "/typographinator/static/js/main.f01e44ad.js",
+    "static/js/453.e308b7f0.chunk.js": "/typographinator/static/js/453.e308b7f0.chunk.js",
+    "static/media/Jost-Regular.ttf": "/typographinator/static/media/Jost-Regular.59de2b38b1b77348c048.ttf",
+    "index.html": "/typographinator/index.html",
+    "main.0cafb8e8.css.map": "/typographinator/static/css/main.0cafb8e8.css.map",
+    "main.f01e44ad.js.map": "/typographinator/static/js/main.f01e44ad.js.map",
+    "453.e308b7f0.chunk.js.map": "/typographinator/static/js/453.e308b7f0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0cafb8e8.css",
+    "static/js/main.f01e44ad.js"
+  ]
+}
